@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'projects/index'
+  get 'projects/show'
+  get 'pages/home'
+  get 'pages/contact'
+  get 'pages/inspirations'
+  get 'projects/contact'
+  get 'projects/inspirations'
+ get "projects", to: "projects#index"
 end
