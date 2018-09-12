@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  get 'projects/index'
+  root to: 'pages#home'
   get 'projects/show'
-  get 'pages/home'
-  get 'pages/contact'
-  get 'pages/inspirations'
-  get 'projects/contact'
-  get 'projects/inspirations'
- get "projects", to: "projects#index"
+  get 'home', to: 'pages#home', as: :home
+  get 'contact', to: 'pages#contact', as: :contact
+  get 'inspirations', to: 'pages#inspirations', as: :inspirations
+  get "projects", to: "projects#index", as: :projects
 end
+
+
