@@ -8,6 +8,15 @@ class ProjectsController < ApplicationController
   	@project = Project.find(params[:id])
   end
 
+  def new
+    @project = Project.new
+  end
+
+  def create
+    @project = Project.new(name: params[:name], description: params[:address], date: params[:date])
+    @project.save
+  end 
+
   private
 
   def project_params

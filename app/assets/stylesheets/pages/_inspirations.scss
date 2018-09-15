@@ -1,0 +1,158 @@
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.background-inspirations {
+	background: url('background_inspirations.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 70%;
+}
+
+.inspirations-title { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+.img-shadow {
+
+}
+
+
+//GRIIIIIIIDDDDDDD//
+.grid-inspirations {
+	display: grid;
+	grid-template-columns: 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px;
+	grid-template-rows: 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px;
+	z-index: 24;
+	grid-gap: 10px;
+	margin-top: 80px
+}
+
+.row-1-col-2-span-7-MIES {
+	grid-row: 1 / 4;
+	grid-column: 2 / 8;
+	margin-left: -32px;
+
+}
+
+.row-3-col-6-span-2-PORTINARI {
+	grid-row: 3;
+	grid-column: 7 / 8;
+	margin-top: 128px;
+	margin-left: 160px;
+}
+
+.row-5-col-3-span-2-PARROT {
+	grid-row: 5;
+	grid-column: 3/4;
+	margin-left: -180px;
+	margin-top: -88px;
+}
+
+.row-6-col-5-span-2-SOFOOT {
+	grid-row: 6;
+	grid-column: 5/6;
+}
+
+.row-8-col-1-span-2-BARRAGAN1 {
+	grid-row: 8;
+	grid-column: 1/2;
+	margin-left: 24px;
+
+}
+
+.row-11-col-4-span-2-BARRAGAN2 {
+	grid-row: 11;
+	grid-column: 4/5;
+	margin-left: 48px;
+}
+
+.row-10-col-7-span-2-PARROT2 {
+	grid-row: 10;
+	grid-column: 7/8;
+	margin-top: -120px;
+}
+
+.row-14-col-5-span-2-BASQUIAT {
+	grid-row: 14;
+	grid-column: 5/6;
+}
+
+.row-18-col-1-span-2-LACHAPPELLE {
+	grid-row: 18;
+	grid-column: 1/2;
+	margin-left: 54px;
+}
+
+.row-21-col-7-span-2-OSS {
+	grid-row: 21;
+	grid-column: 7/8;
+}
+
+.row-23-col-1-span-2-CEZANNE {
+	grid-row: 23;
+	grid-column: 1/2;
+	margin-left: 32px;
+}
+
+.row-25-col-2-span-2-GEMEOS {
+	grid-row: 25;
+	grid-column: 2/3;
+	margin-left: -34px;
+	margin-top: -32px;
+}
+
+.row-26-col-4-span-2-MONKEY {
+	grid-row: 26;
+	grid-column: 4/5;
+	margin-left: -90px;
+
+}
+
+
+.row-26-col-5-span-2-TURRELL {
+	grid-row: 26;
+	grid-column: 5/6;
+	margin-left: 180px;
+
+}
+
+.row-33-col-7-span-2-AM1 {
+	grid-row: 33;
+	grid-column: 7/8;
+	margin-left: 32px;
+}
+
+.row-31-col-1-span-2-IAM {
+    grid-row: 31;
+	grid-column: 1/2;
+	margin-left: 64px;
+}
+
+.row-35-col-2-span-2-FERIS {
+	grid-row: 35;
+	grid-column: 2/3;
+	margin-left: -24px;
+}
+
+.row-40-col-6-span-2-ONCA {
+	grid-row: 38;
+	grid-column: 5/6;
+	margin-top: 200px;
+	
+}
+
+
+
+
+
+

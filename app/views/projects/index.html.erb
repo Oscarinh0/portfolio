@@ -1,2 +1,9 @@
 <h1>Projects#index</h1>
 <p>Find me in app/views/projects/index.html.erb</p>
+
+<% @projects.each do |project| %>
+  <%= link_to project.name, projects_path(project) %>
+<% end %>
+
+<%= link_to 'BACK', :home %>
+<%= link_to 'CONTACT', :contact %>
