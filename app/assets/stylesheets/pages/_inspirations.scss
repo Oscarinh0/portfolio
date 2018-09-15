@@ -27,30 +27,53 @@
 }
 
 
+
+//CARD EFFECT//
+
+
+
+
+
+
+
+
+
 //GRIIIIIIIDDDDDDD//
+
+
+
+
+
 .grid-inspirations {
 	display: grid;
-	grid-template-columns: 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px;
+	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 	grid-template-rows: 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px;
-	z-index: 24;
 	grid-gap: 10px;
-	margin-top: 80px
+	margin-top: 80px;
 }
 
 .row-1-col-2-span-7-MIES {
 	grid-row: 1 / 4;
 	grid-column: 2 / 8;
-	margin-left: -32px;
-
+	background-image: url('inspi-mies.jpg');
+	&:hover {
+		grid-row: 1 / 4;
+		grid-column: 2 / 8;
+		background-image: url('inspi-mies-glitch.png');
+	}
+	
 }
 
-.row-3-col-6-span-2-PORTINARI {
-	grid-row: 3;
-	grid-column: 7 / 8;
-	margin-top: 128px;
-	margin-left: 160px;
+.row-4-col-8-span-2-PORTINARI {
+	grid-row: 4 / 6;
+	grid-column: 8 / 10;
+	background-image: url('inspi-portinari.jpg');
+	&:hover {
+		grid-row: 4 / 6;
+		grid-column: 8 / 10;
+		background-image: url('inspi-portinari-glitch.png');
+    }
 }
-
 .row-5-col-3-span-2-PARROT {
 	grid-row: 5;
 	grid-column: 3/4;
@@ -133,7 +156,7 @@
 }
 
 .row-31-col-1-span-2-IAM {
-    grid-row: 31;
+	grid-row: 31;
 	grid-column: 1/2;
 	margin-left: 64px;
 }
@@ -150,9 +173,3 @@
 	margin-top: 200px;
 	
 }
-
-
-
-
-
-
