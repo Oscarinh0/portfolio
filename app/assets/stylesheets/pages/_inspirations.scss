@@ -28,15 +28,6 @@
 
 
 
-//CARD EFFECT//
-
-
-
-
-
-
-
-
 
 //GRIIIIIIIDDDDDDD//
 
@@ -47,7 +38,7 @@
 .grid-inspirations {
 	display: grid;
 	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-	grid-template-rows: 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px;
+	grid-template-rows: 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px 118.15px;
 	grid-gap: 10px;
 	margin-top: 80px;
 }
@@ -63,7 +54,6 @@
 	}
 	
 }
-
 .row-4-col-8-span-2-PORTINARI {
 	grid-row: 4 / 6;
 	grid-column: 8 / 10;
@@ -72,104 +62,195 @@
 		grid-row: 4 / 6;
 		grid-column: 8 / 10;
 		background-image: url('inspi-portinari-glitch.png');
-    }
+	}
 }
-.row-5-col-3-span-2-PARROT {
-	grid-row: 5;
-	grid-column: 3/4;
-	margin-left: -180px;
-	margin-top: -88px;
-}
-
-.row-6-col-5-span-2-SOFOOT {
-	grid-row: 6;
-	grid-column: 5/6;
-}
-
-.row-8-col-1-span-2-BARRAGAN1 {
-	grid-row: 8;
-	grid-column: 1/2;
-	margin-left: 24px;
-
+.row-5-col-2-span-3x4-PARROT {
+	grid-row: 4 / 7; 
+	grid-column: 2 / 6;
+	background-image: url('inspi-parrot.png');
+	&:hover {
+		grid-row: 4 / 7; 
+		grid-column: 2 / 6;
+		background-image: url('inspi-parrot-glitch.png');
+	}
 }
 
-.row-11-col-4-span-2-BARRAGAN2 {
-	grid-row: 11;
-	grid-column: 4/5;
-	margin-left: 48px;
+.row-7-col-4-span-3x4-SOFOOT {
+	grid-row: 7 / 10; 
+	grid-column: 4 / 8;
+	background-image: url('inspi-sofoot.png');
+	&:hover {
+		grid-row: 7 / 10; 
+		grid-column: 4 / 8;
+		background-image: url('inspi-sofoot-glitch.png');
+	}
 }
 
-.row-10-col-7-span-2-PARROT2 {
-	grid-row: 10;
-	grid-column: 7/8;
-	margin-top: -120px;
-}
-
-.row-14-col-5-span-2-BASQUIAT {
-	grid-row: 14;
-	grid-column: 5/6;
-}
-
-.row-18-col-1-span-2-LACHAPPELLE {
-	grid-row: 18;
-	grid-column: 1/2;
-	margin-left: 54px;
-}
-
-.row-21-col-7-span-2-OSS {
-	grid-row: 21;
-	grid-column: 7/8;
-}
-
-.row-23-col-1-span-2-CEZANNE {
-	grid-row: 23;
-	grid-column: 1/2;
-	margin-left: 32px;
-}
-
-.row-25-col-2-span-2-GEMEOS {
-	grid-row: 25;
-	grid-column: 2/3;
-	margin-left: -34px;
-	margin-top: -32px;
-}
-
-.row-26-col-4-span-2-MONKEY {
-	grid-row: 26;
-	grid-column: 4/5;
-	margin-left: -90px;
+.row-9-col-1-span-2-BARRAGAN1 {
+	grid-row: 9 / 13;
+	grid-column: 1 / 4;
+	background-image: url('inspi-barragan1.jpg');
+	&:hover {
+		grid-row: 9 / 13;
+		grid-column: 1 / 4;
+		background-image: url('inspi-barragan1-glitch.png');
+	}
 
 }
 
+.row-11-col-5-span-2x3-BARRAGAN2 {
+	grid-row: 12 / 14;
+	grid-column: 4 / 7;
+	background-image: url('inspi-barragan2.jpg');
+	
+	&:hover {
+		grid-row: 12 / 14;
+		grid-column: 4 / 7;
+		background-image: url('inspi-barragan2-glitch.png');
+	}
+}
 
-.row-26-col-5-span-2-TURRELL {
-	grid-row: 26;
-	grid-column: 5/6;
-	margin-left: 180px;
+.row-9-col-5-span-4x5-PARROT2 {
+	grid-row: 9 / 13;
+	grid-column: 5 / 10;
+	background-image: url('inspi-parrot2.png');
+	margin-top: 88px;
+	&:hover {
+		grid-row: 9 / 13;
+		grid-column: 5 / 10;
+		background-image: url('inspi-parrot2-glitch.png');
+		margin-top: 88px;
+	}
+}
+
+.row-13-col-3-span-5x5-BASQUIAT {
+	grid-row: 14 / 19;
+	grid-column: 3 / 8;
+	background-image: url('inspi-basquiat.jpg');
+	margin-top: 88px;
+
+	&:hover {
+		grid-row: 13 / 19;
+		grid-column: 3 / 8;
+		background-image: url('inspi-basquiat-glitch.png');
+
+	}
+}
+
+
+.row-19-col-7-span-2x3-OSS {
+	grid-row: 19 / 21;
+	grid-column: 7/10;
+	background-image: url('inspi-oss.png');
+	&:hover {
+		grid-row: 19/21;
+		grid-column: 7/10;
+		background-image: url('inspi-oss-glitch.png');
+	}
+}
+
+.row-21-col-1-span-1x8-CEZANNE {
+	grid-row: 21 / 22;
+	grid-column: 1 / 8;
+	background-image: url('inspi-cezanne.jpg');
+	&:hover {
+		grid-row: 19/21;
+		grid-column: 7/10;
+		background-image: url('inspi-cezanne-glitch.png');
+	}
+}
+
+.row-22-col-4-span-4x5-LACHAPPELLE {
+	grid-row: 22 / 26;
+	grid-column: 4 / 9;
+	background-image: url('inspi-lachappelle.jpg');
+	&:hover {
+		grid-row: 22 / 26;
+		grid-column: 4 / 9;
+		background-image: url('inspi-lachappelle-glitch.png');
+	}
+}
+
+.row-26-col-1-span-3x3-GEMEOS {
+	grid-row: 26 / 29;
+	grid-column: 1 / 4;
+	background-image: url('inspi-gemeos.png');
+	&:hover {
+		grid-row: 26 / 29;
+		grid-column: 1 / 4;
+		background-image: url('inspi-gemeos-glitch.png');
+	}
+}
+
+.row-27-col-3-span-3x4-MONKEY {
+	grid-row: 27 / 30;
+	grid-column: 3 / 7;
+	background-image: url('inspi-monkey.png');
+	&:hover {
+		grid-row: 25 / 28;
+		grid-column: 3 / 7;
+		background-image: url('inspi-monkey-glitch.png');
+	}
 
 }
 
-.row-33-col-7-span-2-AM1 {
-	grid-row: 33;
-	grid-column: 7/8;
-	margin-left: 32px;
+.row-27-col-6-span-4x4-TURRELL {
+	grid-row: 27 / 31;
+	grid-column: 6 / 10;
+	background-image: url('inspi-turrell.jpg');
+	margin-left: 11px;
+
+	&:hover {
+		grid-row: 27 / 31;
+		grid-column: 6 / 10;
+		background-image: url('inspi-turrell-glitch.png');
+	}
+}
+
+.row-33-col-7-span-2x2-AM1 {
+	grid-row: 33 / 35;
+	grid-column: 7 / 9;
+	background-image: url('inspi-am1.png');
+
+	&:hover {
+		grid-row: 33 / 35;
+		grid-column: 7 / 9;
+		background-image: url('inspi-am1-glitch.png');
+	}
 }
 
 .row-31-col-1-span-2-IAM {
-	grid-row: 31;
-	grid-column: 1/2;
-	margin-left: 64px;
+	grid-row: 31 / 35;
+	grid-column: 2 / 6;
+	background-image: url('inspi-iam.jpg');
+
+	&:hover {
+		grid-row: 31 / 35;
+		grid-column: 2 / 6;
+		background-image: url('inspi-iam-glitch.png');
+	}
+}	
+
+.row-35-col-1-span-5x6-FERIS {
+	grid-row: 35 / 39;
+	grid-column: 1 / 7;
+	background-image: url('inspi-ferris.jpg');
+
+	&:hover {
+		grid-row: 35 / 39;
+		grid-column: 1 / 7;
+		background-image: url('inspi-ferris-glitch.png');
+	}
 }
 
-.row-35-col-2-span-2-FERIS {
-	grid-row: 35;
-	grid-column: 2/3;
-	margin-left: -24px;
-}
+.row-37-col-4-span-3x6-ONCA {
+	grid-row: 37 / 40;
+	grid-column: 4 / 10;
+	background-image: url('inspi-onca.png');
 
-.row-40-col-6-span-2-ONCA {
-	grid-row: 38;
-	grid-column: 5/6;
-	margin-top: 200px;
-	
+	&:hover {
+		grid-row: 37 / 41;
+		grid-column: 4 / 10;
+		background-image: url('inspi-onca-glitch.png');
+	}
 }
