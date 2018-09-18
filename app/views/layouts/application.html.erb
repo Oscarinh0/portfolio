@@ -12,9 +12,10 @@
   </head>
 
   <body>
-    <div class="btn-back">
-      <div class="btn-text"> <%= link_to 'BACK', :home %> </div>
-    </div>
+
+       <%= link_to 'BACK', :home, class: 'btn-back btn-text' %>
+    
+ 
     <%= yield %>
   </body>
 </html>

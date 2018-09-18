@@ -4,7 +4,6 @@
 	display: flex;
 	align-content: center;
 	justify-content: center;
-}
 
 	.nuancier {
 		position: absolute;
@@ -12,6 +11,11 @@
 		box-shadow: 8px 2px 32px -1px rgba(0,0,0,0.75);
 		box-shadow: -8px 2px 32px -1px rgba(0,0,0,0.75);
 	}
+    
+    .inspirations-title {
+    	position: fixed;
+    }
+}
 
 .background-inspirations {
 	background: url('background_inspirations.jpg');
@@ -20,24 +24,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 70%;
-
-	.inspirations-title { 
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
-}
-
-.inspirations-title { 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-}
-
-
-
-
 
 
 //GRIIIIIIIDDDDDDD//
@@ -51,7 +38,7 @@
 	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 	grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
 	grid-gap: 10px;
-	margin-top: 80px;
+	margin-top: 322px;
 }
 
 .row-1-col-2-span-7-MIES {
@@ -184,7 +171,7 @@
 	margin-left: 11px;
 	&:hover {
 		grid-row: 32 / 35;
-	grid-column: 1 / 4;
+		grid-column: 1 / 4;
 		background-image: url('inspi-gemeos-glitch.jpg');
 	}
 }
@@ -241,8 +228,8 @@
 	margin-top: 88px;
 
 	&:hover {
-	grid-row: 41 / 47;
-	grid-column: 2 / 8;
+		grid-row: 41 / 47;
+		grid-column: 2 / 8;
 		background-image: url('inspi-ferris-glitch.jpg');
 	}
 }
