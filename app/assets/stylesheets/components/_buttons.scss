@@ -1,5 +1,5 @@
 .btn-text {
-	color: #222121 ;
+	color: red ;
 	font-size: 16px;
 	transform: rotate(-30deg);
 	font-family: 'Montserrat', sans-serif;
@@ -11,9 +11,10 @@
 	height: 96px;
 	width: 96px;
 	margin: 0;
+	border: solid 2px white;
 	border-radius: 50%;
 	position: fixed;
-	background: radial-gradient(circle at 50% 120%, #726d6d, #eae2e2 80%, #ffffff 100%);
+	background: radial-gradient(circle at 50% 120%, rgba(#726d6d, 0.5), rgba(#eae2e2, 0.7) 80%, rgba(#ffffff, 0.9) 90%);
 	left: 87.7%;
 	top: 45%;
 	display: flex;
