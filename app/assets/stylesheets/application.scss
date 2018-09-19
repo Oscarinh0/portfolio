@@ -21,6 +21,12 @@
 
 body {
 	margin-top: 0px;
+	text-rendering: optimizeLegibility;
+	background:#000;
+}
+
+#canvas {
+	background:#222;position:fixed;
 }
 
 

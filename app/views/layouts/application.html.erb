@@ -6,16 +6,20 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,600i,900i" rel="stylesheet">
 
   </head>
 
   <body>
+    <canvas id="canvas"></canvas>
 
        <%= link_to 'BACK', :home, class: 'btn-back btn-text' %>
+
     
  
     <%= yield %>
+
+    
   </body>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </html>
