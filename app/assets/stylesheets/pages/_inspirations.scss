@@ -11,10 +11,10 @@
 		box-shadow: 8px 2px 32px -1px rgba(0,0,0,0.75);
 		box-shadow: -8px 2px 32px -1px rgba(0,0,0,0.75);
 	}
-    
-    .inspirations-title {
-    	position: fixed;
-    }
+	
+	.inspirations-title {
+		position: fixed;
+	}
 }
 
 .background-inspirations {
@@ -52,14 +52,14 @@
 	}
 	
 }
-.row-4-col-8-span-2-PORTINARI {
-	grid-row: 4 / 6;
-	grid-column: 8 / 10;
+.row-4-col-8-span-3x3-PORTINARI {
+	grid-row: 4 / 7;
+	grid-column: 7 / 10;
 	background-image: url('inspi-portinari.jpg');
 	margin-right: 16px;
 	&:hover {
-		grid-row: 4 / 6;
-		grid-column: 8 / 10;
+		grid-row: 4 / 7;
+		grid-column: 7 / 10;
 		background-image: url('inspi-portinari-glitch.jpg');
 		margin-right: 16px;
 	}
