@@ -1,15 +1,13 @@
-<div class="text-test">
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container">
+	<div class="grid-home">
+		<div class="palm-glitch"> <%= image_tag "palm-glitch.gif", alt: "title", width: 600 %>
+			<div class="welcome-mssg">
+				<h2>WELCOME TO </h2>
+				<h2>THE JUNGLE</h2>
+			</div>
+		</div>
+		<div class="btn btn-contact"><%= link_to 'CONTACT', :contact %></div>
+		<div class="btn btn-project"><%= link_to 'PROJECTS', :projects %></div>
+		<div class="btn btn-inspirations"><%= link_to 'INSPIRATIONS', :inspirations %></div>
+	</div>
 </div>
-
-<div class="welcome-mssg">
-	<h2>WELCOME TO </h2>
-	<h2>THE JUNGLE</h2>
-	<h1>kikou</h1>
-</div>
-<div> <%= image_tag "palm-glitch.gif", alt: "title", width: 600 %> </div>
-
-<%= link_to 'CONTACT', :contact %>
-<%= link_to 'PROJECTS', :projects %>
-<%= link_to 'INSPIRATIONS', :inspirations %>

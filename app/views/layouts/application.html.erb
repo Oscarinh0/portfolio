@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Portfolio</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>Portfolio</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,600i,900i" rel="stylesheet">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,600i,900i" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
-    <canvas id="canvas"></canvas>
+<body>
+  <canvas id="canvas"></canvas>
 
-       <%= link_to 'BACK', :home, class: 'btn-back btn-text' %>
-
-    
+  <%= link_to 'BACK', :home, class: 'btn back btn-text' %>
+  
+  <div class="btn-cta">
+    <ul>
+     <li><%= link_to 'MAIL', :home, class: 'btn mail btn-text' %></li> 
+     <li><%= link_to 'CV', :home, class: 'btn cv btn-text' %></li> 
+   </ul>
+ </div>
  
-    <%= yield %>
+ 
+ 
+ <%= yield %>
 
-    
-  </body>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+ 
+</body>
+<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </html>

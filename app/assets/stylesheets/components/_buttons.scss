@@ -7,7 +7,7 @@
 	font-style: italic;
 }
 
-.btn-back {
+.btn {
 	height: 88px;
 	width: 88px;
 	margin: 0;
@@ -15,23 +15,16 @@
 	border-radius: 50%;
 	position: fixed;
 	background-color: rgba(#ffffff, 0.2);
-<<<<<<< HEAD
-	left: 3.1%;
-	top: 17%;
-=======
-	left: 87.7%;
-	top: 45%;
->>>>>>> 4b3241d0b1f962c764b84e8aa97e20ebb04c9ced
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.60);
 	box-shadow: -6px 6px 24px -1px rgba(0,0,0,0.60);
-<<<<<<< HEAD
 	z-index: 5000;
-=======
->>>>>>> 4b3241d0b1f962c764b84e8aa97e20ebb04c9ced
+
 }
+
+
 
 .btn-back:before {
 	content: "";
@@ -54,6 +47,34 @@
 	font-weight: 900;
 	font-style: italic;
 }
+
+.back { 
+	left: 1%;
+	top: 12%;
+}
+
+
+
+.btn-cta {
+	position: fixed;
+	right: 10%;
+	bottom: 5%;
+
+	li {
+		margin-top: 96px;
+		margin-bottom: 96px;
+	}
+}
+
+.cv {
+
+}
+
+.mail {
+
+
+}
+
 
 
 

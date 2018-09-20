@@ -4,7 +4,6 @@
   background-repeat:no-repeat;
   background-size:contain;
   background-position:center;
-  transition: 1.2s ease-out;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,19 +11,15 @@
   .card-text {
     color: white;
     opacity: 0;
-    transition: 1.2s ease-out;
+    transition: 0.7s ease-out;
+    background-color: black;
   }
 
   &:hover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position:center;
-
     .card-text {
       opacity: 1;
+      background-color: black;
+      padding: 8px;
     }
   }
 }

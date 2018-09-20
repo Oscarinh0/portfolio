@@ -1,14 +1,42 @@
+.palm-glitch {
+	position: absolute;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    grid-row: 2;
+	grid-column: 1;
+}
+
 .welcome-mssg {
 	position: absolute;
 	opacity: 0.9;
-	left: 2%;
+	z-index: 4500;
+	text-align: center;
 }
 
-.text-test {
-	position: relative;
-
+.grid-home {
+	grid-template-columns: 500px 500px;
+	grid-template-rows: 500px 500px;
+	position: absolute;
+	display: grid;
+    width: 80%;
 }
 
-#canvas {
-	background:#222;position:fixed;
+
+.btn-inspirations {
+	grid-row: 2;
+	grid-column: 2;
+	left: 70%
+}
+
+.btn-contact {
+	grid-row: 2;
+	grid-column: 2;
+}
+
+.btn-project {
+	grid-row: 2;
+	grid-column: 2;
 }
