@@ -1,27 +1,29 @@
 
 <div class="container">
-	
-
 	<div class="grid-contact">
-		<div class="contact-icone mail-icone text ">
-			<i class="far fa-envelope"></i>
-			<h5>inbox.ob@gmail.com</h5>
+		<div class="contact-gif">
 		</div>
-		<div class="contact-icone whatsapp-icone text ">
-			<i class="fab fa-whatsapp"></i>
-			<h5>+55 (11) 9429 827 86</h5>
+		<div class="contact-icone mail-icone text">
+			<i class="far fa-envelope"></i>
+			<div class="contact-links">
+			<%= mail_to 'inbox.ob@gmail.com'%>
+			</div>
 		</div>
 		<div class="contact-icone linkedin-icone text ">
 			<i class="fab fa-linkedin"></i>
-			<h5>Linkedin</h5>
+			<div class="contact-links">
+				<%= link_to "Linkedin", "https://www.linkedin.com/in/oscar-bonte-769877121", :target=> "_blank"%>
+			</div>
 		</div>
-		<div class="contact-icone malt-icone text ">
+		<div class="contact-icone malt-icone text">
 			<i class="fas fa-pen-alt"></i>
-			<h5>Malt</h5>
+			<div class="contact-links">
+				<%= link_to "Malt", "https://www.malt.fr/profile/oscarbonte/", :target => "_blank"%>
+			</div>
 		</div>
-		<div class="contact-icone city-icone text ">
+		<div class="contact-icone city-icone text">
 			<i class="fas fa-map-signs"></i>
-		    <h5>I live in Sao Paulo</h5>
+			<h5>I live in Sao Paulo</h5>
 		</div>
 		<div class="contact-icone desk-icone text ">
 			<i class="fas fa-briefcase"></i>
@@ -29,3 +31,4 @@
 		</div>
 	</div>
 </div>
+
