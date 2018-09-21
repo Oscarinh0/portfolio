@@ -13,17 +13,18 @@
 <body>
   <canvas id="canvas"></canvas>
 
-  <%= link_to 'BACK', :home, class: 'btn back btn-text' %>
-  
   <div class="btn-cta">
-    <%= link_to 'CONTACT', :contact, class: 'btn mail btn-text' %>
- </div>
- 
- 
- 
- <%= yield %>
+    <ul>
+      <li><%= link_to '<i class="fas fa-arrow-left"></i>'.html_safe, :home, class: 'btn'; %></li>
+      <li><%= link_to 'CONTACT', :contact, class: 'btn btn-text' %></li>
+    </ul>
+  </div>
 
- 
+
+
+  <%= yield %>
+
+
 </body>
 <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </html>

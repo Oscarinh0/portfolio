@@ -9,7 +9,7 @@
 
 .nuancier {
 	position: absolute;
-	left: 7%;
+	left: 5%;
 	box-shadow: 8px 2px 32px -1px rgba(0,0,0,0.75);
 	box-shadow: -8px 2px 32px -1px rgba(0,0,0,0.75);
 	z-index: 4600
@@ -17,6 +17,7 @@
 	
 	.inspirations-title {
 		position: fixed;
+		top: 3%;
 		z-index: 4800;
 	}
 
@@ -129,10 +130,9 @@
 }
 
 .row-21-col-1-span-1x8-CEZANNE {
-	grid-row: 25 / 26;
-	grid-column: 1 / 8;
+	grid-row: 25 / 27;
+	grid-column: 1 / 6;
 	background-image: url('inspi-cezanne.jpg');
-	margin-left: 32px;
 }
 
 .row-22-col-4-span-4x5-LACHAPPELLE {
