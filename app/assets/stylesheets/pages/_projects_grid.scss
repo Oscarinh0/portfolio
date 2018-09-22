@@ -44,10 +44,13 @@ article {
   }
 }
 
-article:nth-child(1) 
+article:nth-child(1) {
+  background-image: url('projects-mrgigz.png');
+}
+
 
 article:nth-child(2) {
-background-image: url('projects-mrgigz.png')
+background-image: url('projects-mrgigz.png');
 }
 article:nth-child(3) {
 
