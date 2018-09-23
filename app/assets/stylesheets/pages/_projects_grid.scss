@@ -1,14 +1,30 @@
-.petit {
-  width: 60%;
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .projects-card {
+    display: inline-block;
+    width: 80vw;
+    height: 101vh;
+    margin-left: 72px;
+  }
 }
+
+.petit {
+  width: 90%;
+}
+
 
 .projects-grid {
   position: relative;
   z-index: 5000;
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 70vw;
   grid-template-rows: 100px 400px 100px;
   transform: rotate(-3deg);
+  grid-gap: 80px;
 }
 
 
