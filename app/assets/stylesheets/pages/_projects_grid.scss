@@ -1,0 +1,77 @@
+.petit {
+  width: 60%;
+}
+
+.projects-grid {
+  position: relative;
+  z-index: 5000;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 400px 100px;
+  transform: rotate(-3deg);
+}
+
+
+.projects-date {
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+}
+
+.projects-image {
+  grid-row: 2;
+  grid-column: 1;
+  background-image: url('projects-mrgigz.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  z-index: 80000;
+  filter: grayscale(0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .projects-image-text {
+
+    color: white;
+    opacity: 0;
+    transition: 0.7s;
+  }
+
+  .fa-search {
+    opacity: 0;
+    color:white;
+    transition: 0.7s;
+  }
+
+  &:hover {
+    filter: grayscale(0.7);
+
+
+    .fa-search {
+      opacity: 1;
+    }
+    .projects-image-text {
+      opacity: 1;
+    }
+  }
+}
+
+.projects-description {
+  grid-row: 3;
+  grid-column: 1;
+  display: flex;  
+  flex-direction: column;
+
+  p {
+    text-align: right;
+  }
+
+  h4 {
+    text-align: right;
+  }
+}
+
+
+
