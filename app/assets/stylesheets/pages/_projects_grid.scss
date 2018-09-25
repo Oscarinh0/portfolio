@@ -1,4 +1,10 @@
 
+.title-projects {
+  margin-top: 40px;
+  position: absolute;
+  z-index: 9000;
+}
+
 .scrolling-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
@@ -17,7 +23,8 @@
 }
 
 .petit {
-  width: 90%;
+  width: 85%;
+  margin-top: 120px;
 }
 
 

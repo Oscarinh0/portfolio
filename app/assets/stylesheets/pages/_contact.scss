@@ -1,85 +1,57 @@
 
-
-
+.title-contact {
+	position: absolute;
+}
 
 .grid-contact {
-	margin-top: 80px;
+	margin-top: 400px;
 	width: 60%;
 	position: relative;
 	display: grid;
 	grid-template-columns: 20% 60% 20%;
-	grid-template-rows: 100px 40px 150px 40px 150px 40px 150px 40px 150px 40px 150px 100px;
+	grid-template-rows: 150px 32px 150px 32px 150px 32px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: 3;
-	border: solid 8px white;
-	border-radius: 2px;
-
 }
 
 .fab {
 	font-size: 80px;
-	color: #d0ddd1;
+	color: #fffffe;
 	margin-right: 24px;
 }
 
 .far {
 	font-size: 80px;
-	color: #d0ddd1;
+	color: #fffffe;
 	margin-right: 24px;
 }
 
 .fas {
 	font-size: 80px;
-	color: #d0ddd1;
+	color: #fffffe;
 	margin-right: 24px;
 }
 
-.cells {
-	display: flex;
-	align-items: center;
-}
 
-
-.contact-gif {
-	display: flex;
-	justify-content: right;
-	align-items: right;
-	background-image: url('contact-rocket.gif');
-	background-repeat:no-repeat;
-	background-size:300px auto;
-	background-position:  top right;
-	grid-row: 1;
-	grid-column: 2;
-}
 
 .mail-icone {
-	grid-row: 2;
+	grid-row: 1;
 	grid-column: 2;
 }
 
 
 .linkedin-icone {
-	grid-row: 4;
+	grid-row: 3;
 	grid-column: 2;
 }
 
 .malt-icone {
-	grid-row: 6;
+	grid-row: 5;
 	grid-column: 2;
 }
 
-.city-icone {
-	grid-row: 8;
-	grid-column: 2;
-
-}
-
-.desk-icone {
-	grid-row: 10;
-	grid-column: 2;
-}
 
 
 

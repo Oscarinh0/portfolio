@@ -2,10 +2,10 @@
 	height: 88px;
 	width: 88px;
 	margin: 0;
-	border: solid 2px rgba(#ffffff, 0.8);
+	border: solid 2px rgba(#f4f5db, 0.8);
 	border-radius: 50%;
 	position: fixed;
-	background-color: rgba(#ffffff, 0.2);
+	background-color: rgba(#f4f5db, 0.2);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -15,7 +15,7 @@
 }
 
 .btn-text {
-	color: rgba(#ffffff, 0.8) ;
+	color: rgba(#f4f5db, 0.8) ;
 	font-size: 16px;
 	transform: rotate(-30deg);
 	font-family: 'Montserrat', sans-serif;
