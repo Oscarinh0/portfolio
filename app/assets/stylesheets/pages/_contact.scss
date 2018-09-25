@@ -3,16 +3,18 @@
 
 
 .grid-contact {
+	margin-top: 80px;
 	width: 60%;
 	position: relative;
 	display: grid;
 	grid-template-columns: 20% 60% 20%;
-	grid-template-rows: 600px 40px 150px 40px 150px 40px 150px 40px 150px 40px 150px;
-	background-image: url('contact-background.jpg');
+	grid-template-rows: 100px 40px 150px 40px 150px 40px 150px 40px 150px 40px 150px 100px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: 3;
+	border: solid 8px white;
+	border-radius: 2px;
 
 }
 
