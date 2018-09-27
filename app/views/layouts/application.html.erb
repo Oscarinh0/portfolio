@@ -14,13 +14,17 @@
   <canvas id="canvas"></canvas>
   <div class="btn-cta">
     <ul>
-      <li><%= link_to '<i class="fas fa-arrow-left"></i>'.html_safe, :home, class: 'btn'; %></li>
-      <li><%= link_to '<i class="far fa-envelope"></i>'.html_safe, :contact, class: 'btn' %></li>
-    </ul>
-  </div>
+     <li> 
+      <% unless current_page?('/') || ('/home') %>
+      <%= link_to '<i class="fas fa-arrow-left"></i>'.html_safe, :home, class: 'btn-layout'; %>
+      <%end%>
+    </li>
+    <li><%= link_to '<i class="far fa-envelope"></i>'.html_safe, :contact, class: 'btn-layout' %></li>
+  </ul>
+</div>
 
 
-  <%= yield %>
+<%= yield %>
 
 
 

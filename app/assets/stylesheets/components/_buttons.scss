@@ -1,4 +1,4 @@
-.btn {
+.btn-layout {
 	height: 88px;
 	width: 88px;
 	margin: 0;
@@ -41,6 +41,7 @@
 		padding-left: 24px;
 		&:hover {
 			opacity: 1;
+			text-shadow: #f7f9bc 1px 0 10px;
 		}
 	}
 
@@ -52,6 +53,7 @@
 
 		&:hover {
 			opacity: 1;
+			text-shadow: #f7f9bc 1px 0 10px;
 
 
 		}
@@ -60,19 +62,27 @@
 
 }
 
-#home-project {
-	background-color: #cc4be8;
+#home-link {
+	background-color: rgba(#f4f5db,0.4);
+	//box-shadow: 0 1px 4px 0 rgba(#f4f5db,0.4), 0 1px 2px 0 rgba(#f4f5db,0.6);
+	border-left: solid #ffffff 1px;
+	color: white;
+	opacity: 1;
+	text-shadow: black 1px 0 4px;
+	
 	padding: 5px 1px 5px 5px;
-	margin: 3px;
+	margin: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	letter-spacing: 3px;
+	transition: 0.3s;
 	&:hover {
+		color: rgba(#ffffff, 0.1);
+        text-shadow: #f7f9bc 1px 0 10px;
 	}
-}
-
-#home-inspi {
-	background-color: #28e68a;
-	padding: 5px;
-	margin: 3px;
 
 }
+
+
 
 

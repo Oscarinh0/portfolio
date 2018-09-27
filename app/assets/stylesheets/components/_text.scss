@@ -87,31 +87,49 @@ a:hover, a:visited, a:link, a:active {
 		font-size: 32px;
 		color: #fffffe;
 		font-family: 'Montserrat', sans-serif;
-		font-weight: 200
+		font-weight: 200;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 16px;
+		padding-right: 16px;
+	   
+	   &:hover {
+          background-color: rgba(#f4f5db,0.4);
+		//box-shadow: 0 1px 4px 0 rgba(#f4f5db,0.4), 0 1px 2px 0 rgba(#f4f5db,0.6);
+		border-left: solid #ffffff 1px;
+		color: white;
+		opacity: 1;
+		text-shadow: #f7f9bc 4px 0 10px;
+	}	
 	}
 }
 
 
 
 .home-bio .btn-link {
-	padding-left: 3px;
-	padding-right: 3px;
-	transition:  ;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	transition: 0.3s ;
 
 	&:hover,
 	&:focus {
 		background-color: rgba(#f4f5db,0.4);
-		box-shadow: 0 2px 6px 0 rgba(#f4f5db,0.4), 0 2px 4px 0 rgba(#f4f5db,0.6);
-		border-radius: 3px;
+		//box-shadow: 0 1px 4px 0 rgba(#f4f5db,0.4), 0 1px 2px 0 rgba(#f4f5db,0.6);
+		border-left: solid #ffffff 1px;
 		color: white;
 		opacity: 1;
+		text-shadow: #f7f9bc 1px 0 10px;
 	}
 }
 
-
-
-
-
+.txt_center {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 
 
