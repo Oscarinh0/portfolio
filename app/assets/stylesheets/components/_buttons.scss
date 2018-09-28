@@ -1,4 +1,4 @@
-.btn-layout {
+.btn-layout1 {
 	height: 88px;
 	width: 88px;
 	margin: 0;
@@ -12,7 +12,26 @@
 	box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.60);
 	box-shadow: -6px 6px 24px -1px rgba(0,0,0,0.60);
 	z-index: 5000;
+
 }
+
+.btn-layout2 {
+	height: 88px;
+	width: 88px;
+	margin: 0;
+	border: solid 2px rgba(#f4f5db, 0.8);
+	border-radius: 50%;
+	position: fixed;
+	background-color: rgba(#f4f5db, 0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 6px 6px 24px -1px rgba(0,0,0,0.60);
+	box-shadow: -6px 6px 24px -1px rgba(0,0,0,0.60);
+	z-index: 5000;
+	margin-left: 120px;
+}
+
 
 .btn-text {
 	color: rgba(#f4f5db, 0.8) ;
@@ -25,14 +44,14 @@
 
 .btn-cta {
 	position: fixed;
-	right: 11%;
-	bottom: 7%;
+	left: 1%;
 	z-index: 5000;
+}
 
-	li {
-		margin-top: 96px;
-		margin-bottom: 96px;
-	}
+li {
+	display: inline;
+	
+
 
 	.fa-arrow-left {
 		color: white;
@@ -58,9 +77,8 @@
 
 		}
 	}
-
-
 }
+
 
 #home-link {
 	background-color: rgba(#f4f5db,0.4);
@@ -78,7 +96,7 @@
 	transition: 0.3s;
 	&:hover {
 		color: rgba(#ffffff, 0.1);
-        text-shadow: #f7f9bc 1px 0 10px;
+		text-shadow: #f7f9bc 1px 0 10px;
 	}
 
 }

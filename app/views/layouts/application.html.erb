@@ -12,14 +12,18 @@
 
 <body>
   <canvas id="canvas"></canvas>
-  <div class="btn-cta">
+    <div class="btn-cta">
     <ul>
      <li> 
-      <% unless current_page?('/') || ('/home') %>
-      <%= link_to '<i class="fas fa-arrow-left"></i>'.html_safe, :home, class: 'btn-layout'; %>
+      <% unless current_page?('/home') %>
+      <%= link_to '<i class="fas fa-arrow-left"></i>'.html_safe, :home, class: 'btn-layout1'; %>
       <%end%>
     </li>
-    <li><%= link_to '<i class="far fa-envelope"></i>'.html_safe, :contact, class: 'btn-layout' %></li>
+    <li>
+      <% unless current_page?('/contact') %>
+      <%= link_to '<i class="far fa-envelope"></i>'.html_safe, :contact, class: 'btn-layout2' %>
+      <%end%>
+    </li>
   </ul>
 </div>
 
