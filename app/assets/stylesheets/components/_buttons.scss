@@ -88,9 +88,7 @@ li {
 	color: white;
 	opacity: 1;
 	text-shadow: black 1px 0 4px;
-	
 	padding: 5px 1px 5px 5px;
-	margin: 8px;
 	padding-left: 16px;
 	padding-right: 16px;
 	letter-spacing: 3px;
@@ -99,8 +97,13 @@ li {
 		color: rgba(#ffffff, 0.1);
 		text-shadow: #f7f9bc 1px 0 10px;
 	}
+}	
 
+#margin-and {
+	margin-right: 8px;
+	margin-left: 8px;
 }
+
 
 
 
