@@ -40,7 +40,7 @@ h4 {
 h5 {
 	font-size: 32px;
 	color: #fffffe;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 }
 
@@ -58,8 +58,9 @@ p {
 	margin: 4px;
 	padding: 0px;
 	color: #fffffe;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
+	text-align: left;
 }
 
 
@@ -75,7 +76,7 @@ a:hover, a:visited, a:link, a:active {
 	font-size: 20px;
 	margin: 4px;
 	padding: 0px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 	color: #d0ddd1;
 	margin-right: 32px;
@@ -86,22 +87,22 @@ a:hover, a:visited, a:link, a:active {
 	a {
 		font-size: 32px;
 		color: #fffffe;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Raleway', sans-serif;
 		font-weight: 200;
 		padding-top: 3px;
 		padding-bottom: 3px;
 		padding-left: 16px;
 		padding-right: 16px;
-	   
-	   &:hover {
-        background-color: rgba(#f4f5db,0.4);
+		
+		&:hover {
+			background-color: rgba(#f4f5db,0.4);
 		//box-shadow: 0 1px 4px 0 rgba(#f4f5db,0.4), 0 1px 2px 0 rgba(#f4f5db,0.6);
 		border-left: solid #ffffff 1px;
 		color: white;
 		opacity: 1;
 		text-shadow: #f7f9bc 4px 0 10px;
 	}	
-	}
+}
 }
 
 
@@ -129,6 +130,37 @@ a:hover, a:visited, a:link, a:active {
 	display: flex;
 	justify-content: left;
 	align-items: center;
+}
+
+.home-bio {
+
+	p {
+		font-size: 24px;
+		text-align: justify;
+		text-justify: auto;
+		line-height: 2;
+		margin-bottom: 20px;
+		opacity: 0.8;
+	}
+
+	a {
+		font-size: 24px;
+		color: white;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		opacity: 1;
+	}
+
+	#home-link {
+
+		a{
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 600;
+			font-style: italic;
+
+		}
+
+	}
 }
 
 
