@@ -6,37 +6,12 @@
 }
 
 
-//#wrapper {
-//width: 100%;
-//margin: 0 auto;
-//display: flex;
-//align-content: center;
-//justify-content: center;
-//}
-
-
 .title__inspirations {
 	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538607697/Portfolio/title-inspirations.png');
 }
 
 
-
-//.background-inspirations {
-//	background: url('background_inspirations.jpg');
-//	background-attachment: fixed;
-//	background-position: center;
-//	background-size: cover;
-//	background-repeat: no-repeat;
-//	width: 70%;
-//	position: absolute;
-//}
-
-
-
 //GRIIIIIIIDDDDDDD//
-
-
-
 
 
 .grid-inspirations {
@@ -45,7 +20,7 @@
 	grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
 	grid-gap: 10px;
 	z-index: 4500;
-	width: 80%;
+	width: 78%;
 	position: relative;
 }
 
@@ -97,8 +72,8 @@
 }
 
 .row-11-col-5-span-2x3-BARRAGAN2 {
-	grid-row: 14 / 17;
-	grid-column: 3 / 6;
+	grid-row: 15 / 18;
+	grid-column: 4 / 7;
 	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538607697/Portfolio/inspi-barragan2.jpg');
 	
 	
@@ -106,74 +81,75 @@
 
 .row-9-col-5-span-4x5-PARROT2 {
 	grid-row: 12 / 16;
-	grid-column: 5 / 10;
+	grid-column: 6 / 10;
 	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538610039/inspi-parrot2.png');
 	
 }
 
 .row-13-col-3-span-5x5-BASQUIAT {
-	grid-row: 18 / 23;
-	grid-column: 6 / 10;
+	grid-row: 18 / 25;
+	grid-column: 7 / 10;
 	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538607701/Portfolio/inspi-basquiat.jpg');
 	
 }
 
 
 .row-19-col-7-span-2x3-OSS {
-	grid-row: 22 / 24;
-	grid-column: 2	 / 6;
+	grid-row: 21 / 24;
+	grid-column: 2	/ 6;
 	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538607698/Portfolio/inspi-oss.jpg');
 
 }
 
 .row-21-col-1-span-1x8-CEZANNE {
 	grid-row: 25 / 27;
-	grid-column: 2 / 7;
+	grid-column: 5 / 10;
 	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538607699/Portfolio/inspi-cezanne.jpg');
 }
 
-.row-22-col-4-span-4x5-LACHAPPELLE {
-	grid-row: 27 / 31;
-	grid-column: 4 / 10;
-	background-image: url('inspi-lachappelle.jpg');
-	margin-right: 16px;
-}
 
-.row-26-col-1-span-3x3-GEMEOS {
-	grid-row: 32 / 35;
-	grid-column: 2 / 5;
-	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538607698/Portfolio/inspi-gemeos.jpg');
+.row-26-col-1-span-3x3-DERAIN {
+	grid-row: 29 / 32;
+	grid-column: 1 / 6;
+	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538861761/andre%CC%81_derain.jpg');
 	margin-left: 32px;
 
 }
 
+.row-26-col-1-span-3x3-GEMEOS {
+	grid-row: 33 / 35;
+	grid-column: 2 / 4;
+	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538607698/Portfolio/inspi-gemeos.jpg');
+	margin-left: 32px;
+	z-index: 3000;
+
+}
+
 .row-27-col-3-span-3x4-MONKEY {
-	grid-row: 33 / 38;
-	grid-column: 3 / 7;
+	grid-row: 31 / 36;
+	grid-column: 4 / 8;
 	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538610037/inspi-monkey.png');
-	margin-right: 8px;
+	margin-right: 40px;
+	z-index: 1000;
 }
 
 .row-27-col-6-span-4x4-TURRELL {
-	grid-row: 32 / 38;
+	grid-row: 28 / 34;
 	grid-column: 6 / 10;
 	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538607699/Portfolio/inspi-turrell.jpg');
 	margin-right: 16px;
-	
-
-
 }
 
 .row-33-col-7-span-2x2-AM1 {
-	grid-row: 39 / 41;
+	grid-row: 36 / 38;
 	grid-column: 6 / 9;
 	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538607698/Portfolio/inspi-am1.png');
 
 }
 
 .row-31-col-1-span-2-IAM {
-	grid-row: 38 / 41;
-	grid-column: 2 / 6;
+	grid-row: 37 / 41;
+	grid-column: 1 / 6;
 	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538607696/Portfolio/inspi-iam.jpg');
 }	
 
@@ -181,6 +157,13 @@
 	grid-row: 41 / 47;
 	grid-column: 2 / 8;
 	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538607700/Portfolio/inspi-ferris.jpg');
+	margin-top: 88px;
+}
+
+.row-35-col-1-span-5x6-SALGADO {
+	grid-row: 39 / 47;
+	grid-column: 7 / 10;
+	background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538862284/Salgado.jpg');
 	margin-top: 88px;
 }
 
