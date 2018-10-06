@@ -6,32 +6,54 @@
   <%= csp_meta_tag %>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
- <link href="https://fonts.googleapis.com/css?family=Montserrat:600i,900i|Raleway:200,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600i,900i|Raleway:200,400" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 </head>
 
 <body>
   <canvas id="canvas"></canvas>
-    <div class="btn-cta">
-    <ul>
-     <li> 
-      <% unless current_page?('/home') %>
+
+  <div class="grid-layout">
+    <div class="btn-back">
+      <% if current_page?('/inspirations') %>
       <%= link_to '<i class="fas fa-arrow-left"></i>'.html_safe, :home, class: 'btn-layout1'; %>
+      <% elsif current_page?('/projects') %>
+      <%= link_to '<i class="fas fa-arrow-left"></i>'.html_safe, :home, class: 'btn-layout1'; %>
+      <% elsif current_page?('/contact') %>
+      <%= link_to '<i class="fas fa-arrow-left"></i>'.html_safe, :home, class: 'btn-layout1'; %>
+      <% else %>
       <%end%>
-    </li>
-    <li>
-      <% unless current_page?('/contact') %>
-      <%= link_to '<i class="far fa-envelope"></i>'.html_safe, :contact, class: 'btn-layout2' %>
-      <%end%>
-    </li>
-  </ul>
-</div>
+    </div>
+
+    
+    <% if current_page?('/inspirations') %>
+    <div class="title__inspirations title__layout">
+    </div>
+    <% elsif current_page?('/contact') %>
+    <div class="title-contact title__layout">
+    </div>
+    <% elsif current_page?('/projects') %>
+    <div class="title-projects title__layout">
+    </div>
+    <% else %>
+    <div class="title-home title__layout">
+    </div>
+    <% end %>
 
 
-<%= yield %>
+    <div class="btn-mail">
+     <% unless current_page?('/contact') %>
+     <%= link_to '<i class="far fa-envelope"></i>'.html_safe, :contact, class: 'btn-layout2' %>
+     <%end%>
+   </div>
+ </div>
+
+ <%= yield %>
 
 
 
 
-<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+ <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</body>
 </html>

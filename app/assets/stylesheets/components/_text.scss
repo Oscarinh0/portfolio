@@ -93,9 +93,9 @@ a:hover, a:visited, a:link, a:active {
 		padding-bottom: 3px;
 		padding-left: 16px;
 		padding-right: 16px;
-		
+
 		&:hover {
-			background-color: rgba(#f4f5db,0.4);
+		background-color: rgba(#f4f5db,0.4);
 		//box-shadow: 0 1px 4px 0 rgba(#f4f5db,0.4), 0 1px 2px 0 rgba(#f4f5db,0.6);
 		border-left: solid #ffffff 1px;
 		color: white;
@@ -106,34 +106,49 @@ a:hover, a:visited, a:link, a:active {
 }
 
 
+//@keyframes slideInFromRight {
+//	0% {
+//		transform: translateX(100%);
+//	}
+//	100% {
+//		transform: translateX(0);
+//	}
+//}
 
-.home-bio .btn-link {
-	padding-left: 6px;
-	padding-right: 6px;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	transition: 0.3s ;
-
-	&:hover,
-	&:focus {
-		background-color: rgba(#f4f5db,0.4);
-		//box-shadow: 0 1px 4px 0 rgba(#f4f5db,0.4), 0 1px 2px 0 rgba(#f4f5db,0.6);
-		border-left: solid #ffffff 1px;
-		color: white;
-		opacity: 1;
-		text-shadow: #f7f9bc 1px 0 10px;
-	}
-}
-
-.txt_center {
-	text-align: left;
-	display: flex;
-	justify-content: left;
-	align-items: center;
-}
+//.sleep_1 {
+//	animation: 1s linear 0s slideInFromRight;
+//	animation-delay: 3s;
+//}
+//
+//
+//.sleep_2 {
+//	animation: 1s linear 0s slideInFromRight;
+//	animation-delay: 6s;
+//}
+//
+//.sleep_3 {
+//	animation: 1s linear 0s slideInFromRight;
+//	animation-delay: 9s;
+//}
+//
+//.sleep_4 {
+//	animation: 1s linear 0s slideInFromRight;
+//	animation-delay: 12s;
+//}
+//
+//.sleep_5 {
+//	animation: 1s linear 0s slideInFromRight;
+//	animation-delay: 15s;
+//}
+//
+//.sleep_6 {
+//	animation: 1s linear 0s slideInFromRight;
+//	animation-delay: 15s;
+//}
 
 .home-bio {
 
+//animation: 0.9s linear 0s slideInFromRight;
 	p {
 		font-size: 24px;
 		text-align: justify;
@@ -162,6 +177,36 @@ a:hover, a:visited, a:link, a:active {
 
 	}
 }
+
+
+.home-bio .btn-link {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	transition: 0.3s ;
+
+	&:hover,
+	&:focus {
+		background-color: rgba(#f4f5db,0.4);
+		//box-shadow: 0 1px 4px 0 rgba(#f4f5db,0.4), 0 1px 2px 0 rgba(#f4f5db,0.6);
+		border-left: solid #ffffff 1px;
+		color: white;
+		opacity: 1;
+		text-shadow: #f7f9bc 1px 0 10px;
+	}
+}
+
+.txt_center {
+	text-align: left;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+
+
+
 
 
 

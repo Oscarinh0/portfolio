@@ -15,19 +15,44 @@
  */
 
 
-@import "pages/index";
-@import "components/index";
-@import "configuration/index";
+ @import "pages/index";
+ @import "components/index";
+ @import "configuration/index";
 
-body {
-	margin-top: 0px;
-	text-rendering: optimizeLegibility;
-	background:#000;
-	
-}
+ body {
+ 	margin-top: 0px;
+ 	text-rendering: optimizeLegibility;
+ 	background:#000;
+ 	
+ }
 
-#canvas {
-	background:#222;position:fixed;
-}
+ #canvas {
+ 	background:#222;position:fixed;
+ }
+
+ .grid-layout {
+ 	padding-top: 16px;
+ 	display: grid;
+ 	grid-template-columns: 20% 60% 20%;
+ 	grid-template-rows: 25vh;
+ 	width: 100%;
+ }
+
+ .title__layout {
+ 	background-repeat:no-repeat;
+ 	background-size:contain;
+ 	background-position:center;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	z-index: 9000;
+ 	grid-row: 1;
+ 	grid-column: 2;
+ }
+
+
+
+
+
 
 

@@ -1,15 +1,12 @@
 
 .title-projects {
-  position: absolute;
-  z-index: 9000;
+background-image: url('https://res.cloudinary.com/oscarinh0/image/upload/v1538608886/Portfolio/title-experience.png');
 }
 
 .scrolling-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-
-
 
   .projects-card {
     position: relative;

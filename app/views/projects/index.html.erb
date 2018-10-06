@@ -1,23 +1,23 @@
 
 <div class="container">
-  <div class="title-projects"><%= image_tag "https://res.cloudinary.com/oscarinh0/image/upload/v1538608886/Portfolio/title-experience.png", alt: "title", width: 700 %></div>
   <div class="petit scrolling-wrapper">
     <% @projects.each do |project| %>
-      <section class="projects-card">
-        <div class="projects-grid">
-          <div class="projects-date">
-            <h2><%= project.date%></h2>
+    <section class="projects-card">
+      <div class="projects-grid">
+        <div class="projects-date">
+          <h2><%= project.date%></h2>
+        </div>
+        <div class="projects-image">
+          <div class="projects-image-text">
+            <i class="fas fa-search"></i><h6>Click to zoom</h6>
           </div>
-          <div class="projects-image">
-            <div class="projects-image-text">
-              <i class="fas fa-search"></i><h6>Click to zoom</h6>
-            </div>
-          </div>
-          <div class="projects-description">
-            <h4><%= project.name %></h4>
-            <div class="text-deb"><p><%= project.description %></p></div>
+        </div>
+        <div class="projects-description">
+          <h4><%= project.name %></h4>
+          <div class="text-deb"><p><%= project.description %></p></div>
         </div>
       </section>
-    <%end%>
+      <%end%>
   </div>
 </div>
+
