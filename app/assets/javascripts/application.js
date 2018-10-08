@@ -15,11 +15,3 @@
 //= require turbolinks
 //= require_tree .
 
-import scrollButton from "./scroll_button"
-import noise from "./noise"
-import cable from "./cable"
-
-
-scrollButton();
-noise();
-cable();
