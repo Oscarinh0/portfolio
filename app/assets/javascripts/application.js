@@ -15,3 +15,7 @@
 //= require turbolinks
 //= require_tree .
 
+import noise from "./noise"
+
+
+noise();
