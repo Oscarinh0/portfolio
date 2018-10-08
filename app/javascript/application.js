@@ -1,4 +1,3 @@
-import noiseBAckground from "./noiseBackgroundfrom";
-
+import noiseBackground from "./noise_background";
 
 noiseBackground();
