@@ -1,5 +1,5 @@
 <div class="container-project">
-  <div class="petit scrolling-wrapper">
+  <div class="scrolling-wrapper">
     <% @projects.each do |project| %>
     <section class="projects-card">
       <div class="projects-grid">
@@ -7,14 +7,13 @@
           <h2><%= project.date%></h2>
         </div>
         <a href="#" class="scroll-previous" address="true"></a>
-        <div class="projects-image">
-          <div class="projects-image-text">
-            <i class="fas fa-search"></i><h6>Click to zoom</h6>
+        <div class="projects-image card">
+          <div class="card-text">
+            <p><%= project.description %></p>
           </div>
         </div>
         <div class="projects-description">
           <h4><%= project.name %></h4>
-          <div class="text-deb"><p><%= project.description %></p></div>
         </div>
         <a href="#" class="scroll-next" address="true"></a>
       </section>
@@ -22,3 +21,4 @@
   </div>
 </div>
 
+z

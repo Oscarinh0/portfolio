@@ -13,13 +13,13 @@ class ProjectsController < ApplicationController
   end
 
   def create
-    @project = Project.new(name: params[:name], description: params[:address], date: params[:date])
+    @project = Project.new(project_params)
     @project.save
   end 
 
   private
 
   def project_params
-    params.require(:project).permit(:name, :description, :date)
+    params.require(:project).permit(:name, :description, :date, :image)
   end
 end

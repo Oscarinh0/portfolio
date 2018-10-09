@@ -11,7 +11,8 @@ puts 'Creating projects...'
 project_1 = Project.create!(
 	name: 'Mr Gigz',
 	description: 'MrGigz is an application made during my formation at Le Wagon. With three classmates we wanted to create a link beetwen bar managers and music band. The priciple is simple, a bar manager adds an anouncement for a gig on our website.  Music band can apply and the bar manager can select what kind of band he would gor his show. ',
-	date: 2018
+	date: 2018,
+	image: 'OSCAR'
 	)
 
 project_2 = Project.create!(
