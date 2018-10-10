@@ -4,15 +4,13 @@
 }
 
 .grid-contact {
-	width: 60%;
+	width: 100%;
 	position: relative;
 	display: grid;
 	grid-template-columns: 20% 60% 20%;
-	grid-template-rows: 150px 32px 150px 32px 150px 32px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	grid-template-rows: 80px 60px 64px 80px 80px 64px 80px 80px 64px;
 	z-index: 3;
+	grid-gap: 32px;
 }
 
 .fab {
@@ -34,20 +32,41 @@
 }
 
 
+.flex-position {
+display: flex;
+justify-content: center;
+align-itmes: center;
+}
 
 .mail-icone {
 	grid-row: 1;
 	grid-column: 2;
 }
 
+.g__mail {
+grid-row: 2;
+grid-column: 2;
+}
+
 
 .linkedin-icone {
-	grid-row: 3;
+	grid-row: 4;
+	grid-column: 2;
+}
+
+
+.g__linkedin {
+	grid-row: 5;
 	grid-column: 2;
 }
 
 .malt-icone {
-	grid-row: 5;
+	grid-row: 7;
+	grid-column: 2;
+}
+
+.g__malt {
+	grid-row: 8;
 	grid-column: 2;
 }
 

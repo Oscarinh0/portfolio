@@ -64,13 +64,13 @@ h6 {
 }
 
 p {
-	font-size: 14px;
+	font-size: 24px;
 	margin: 4px;
 	padding: 0px;
 	color: #fffffd;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
-	text-align: left;
+	text-align: center;
 }
 
 
@@ -94,15 +94,19 @@ a:hover, a:visited, a:link, a:active {
 
 
 .contact-links {
+
+
 	a {
-		font-size: 32px;
+		display: flex;
+		align-items: center;
+		font-size: 40px;
 		color: #fffffd;
 		font-family: 'Raleway', sans-serif;
 		font-weight: 200;
 		padding-top: 3px;
 		padding-bottom: 3px;
-		padding-left: 16px;
-		padding-right: 16px;
+		padding-left: 8px;
+		padding-right:8px;
 
 		&:hover {
 			background-color: rgba(#f4f5db,0.4);
@@ -159,8 +163,8 @@ a:hover, a:visited, a:link, a:active {
 
 .t__rotation__up {
 
-display: flex;
-flex-direction: column;
+	display: flex;
+	flex-direction: column;
 
 
 	#big__letter {
@@ -222,20 +226,24 @@ a {
 	opacity: 1;
 }
 
+
+}
+
 #home-link {
 
-	a{
+	a:hover, a:visited, a:link, a:active {
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 600;
 		font-style: italic;
+		text-decoration: none;
+		color: #fffffd;
+		font-size: 32px;
 
 	}
 
 }
-}
 
-
-.home-bio .btn-link {
+.btn-link {
 	padding-left: 6px;
 	padding-right: 6px;
 	padding-top: 3px;

@@ -1,27 +1,25 @@
+<div class="title-contact"></div>
 <div class="container">
-	<div class="title-contact">
-	</div>
 	<div class="grid-contact">
-		<div class="contact-gif">
-		</div>
-		<div class="contact-icone mail-icone text">
+		<div class="contact-icone mail-icone flex-position">
 			<i class="far fa-envelope"></i>
-			<div class="contact-links">
+		</div>	
+		<div class="contact-links g__mail flex-position">
 			<%= mail_to 'inbox.ob@gmail.com'%>
-			</div>
 		</div>
-		<div class="contact-icone linkedin-icone text ">
+		<div class="contact-icon linkedin-icone flex-position ">
 			<i class="fab fa-linkedin"></i>
-			<div class="contact-links">
-				<%= link_to "Linkedin", "https://www.linkedin.com/in/oscar-bonte-769877121", :target=> "_blank"%>
-			</div>
 		</div>
-		<div class="contact-icone malt-icone text">
+		<div class="contact-links g__linkedin flex-position">
+			<%= link_to "linkedin", "https://www.linkedin.com/in/oscar-bonte-769877121", :target=> "_blank"%>
+		</div>
+		<div class="contact-icone malt-icone flex-position">
 			<i class="fas fa-pen-alt"></i>
-			<div class="contact-links">
-				<%= link_to "Malt", "https://www.malt.fr/profile/oscarbonte/", :target => "_blank"%>
-			</div>
+		</div>
+		<div class="contact-links g__malt flex-position">
+			<%= link_to "malt", "https://www.malt.fr/profile/oscarbonte/", :target => "_blank"%>
 		</div>
 	</div>
-</div>
+</div>	
+
 
