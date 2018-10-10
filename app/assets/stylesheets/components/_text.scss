@@ -10,21 +10,24 @@ h1 {
 }
 
 h2 {
-	font-size: 64px;
-	margin-bottom: 32px;
-	color: #fffffe;
+	font-size: 32px;
+	color: #f8f9e1;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
 	font-style: italic;
+	margin-top: auto;
+	margin-bottom: 0px;
 }
 
 h3 {
-	font-size: 48px;
-	margin-bottom: 24px;
-	color: #fffffe;
+	font-size: 40px;
+	color: #f8f9e1;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
+	font-weight: 900;
 	font-style: italic;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: right;
 }
 
 h4 {
@@ -43,6 +46,8 @@ h5 {
 	color: #fffffe;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
+	margin-top:0px;
+	margin-bottom:0px;
 }
 
 h6 {
@@ -146,6 +151,34 @@ a:hover, a:visited, a:link, a:active {
 //	animation: 1s linear 0s slideInFromRight;
 //	animation-delay: 15s;
 //}
+
+
+.t__rotation__up {
+	transform: rotate(90deg);
+    position: relative;
+    top: 140px;
+    left: 140px;
+
+    p {
+    	font-size: 48px;
+    	color: rgba(#f7f9bc, 0.2);
+
+    }
+}
+
+.project-bio {
+width: 5	0%;
+//animation: 0.9s linear 0s slideInFromRight;
+	p {
+		font-size: 16px;
+		text-align: justify;
+		text-justify: inter-word;
+		line-height: 2;
+		opacity: 0.8;
+	}
+}
+
+
 
 .home-bio {
 

@@ -8,12 +8,15 @@
 
 puts 'Creating projects...'
 
+project_1_url = "https://res.cloudinary.com/oscarinh0/image/upload/v1538607701/Portfolio/projects-mrgigz.png"
 project_1 = Project.create!(
 	name: 'Mr Gigz',
 	description: 'MrGigz is an application made during my formation at Le Wagon. With three classmates we wanted to create a link beetwen bar managers and music band. The priciple is simple, a bar manager adds an anouncement for a gig on our website.  Music band can apply and the bar manager can select what kind of band he would gor his show. ',
 	date: 2018,
-	image: 'OSCAR'
+	period: '2 months',
 	)
+project_1.remote_photo_url = project_1_url
+
 
 project_2 = Project.create!(
 	name: 'SAD Marketing',
@@ -24,7 +27,7 @@ project_2 = Project.create!(
 
 project_3 = Project.create!(
 	name: 'Hassan II trophy',
-	description: 'During 6 months, i had the chance to did an intership at PR Media, the most important public relation agency in Morocco. I worked as a press officer for two huge events : The Golf trophy Hassan II and Mawazine (music festival). I also worked with influencers for Ford and Visa',
+	description: 'During 6 months, i had the chance to do an intership at PR Media, the most important public relation agency in Morocco. I worked as a press officer for two huge events : The Golf trophy Hassan II and Mawazine (music festival). I also worked with influencers for Ford and Visa',
 	date: 2016
 	)
 
