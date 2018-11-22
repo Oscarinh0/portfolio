@@ -1,17 +1,16 @@
 h1 {
-	font-size: 72px;
-	margin-bottom: 40px;
-	margin-top: 0px;
-	color: #fffffd;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
-	font-style: italic;
-	opacity: 0.9;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
+		font-style: italic;
+		text-decoration: none;
+		color: rgba(#fafaee, 0.8)
+		;
+		font-size: 32px;
 }
 
 h2 {
 	font-size: 40px;
-	color: rgba(#f7f9bc, 0.2);
+	color: rgba(#f4f5db, 0.8);
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 	margin-top: auto;
@@ -23,7 +22,7 @@ h2 {
 
 h3 {
 	font-size: 40px;
-	color: rgba(#f8f9e1, 0.2);
+	color: rgba(#fffffd, 0.2);
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
 	font-style: italic;
@@ -67,13 +66,24 @@ p {
 	font-size: 24px;
 	margin: 4px;
 	padding: 0px;
-	color: #fffffd;
+	color: #f4f5db;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	text-align: center;
+
+
+}
+
+
+#bjr__home{
+	font-size: 32px;
+	margin-right: 8px;
+	padding: 0px;
+	color: #f4f5db;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 	text-align: center;
 }
-
-
 
 a:hover, a:visited, a:link, a:active {
 	text-decoration: none;
@@ -170,7 +180,7 @@ a:hover, a:visited, a:link, a:active {
 	#big__letter {
 
 		font-size: 24px;
-		color: rgba(#f7f9bc, 0.2);
+		color: rgba(#f4f5db, 0.6);
 		transform: rotate(90deg);
 		text-align: center;
 		line-height: 0.8;
@@ -182,7 +192,7 @@ a:hover, a:visited, a:link, a:active {
 	#big__letter__num {
 
 		font-size: 32px;
-		color: rgba(#f7f9bc, 0.2);
+		color: rgba(#f4f5db, 0.7);
 		transform: rotate(90deg);
 		text-align: center;
 		line-height: 0.8;
@@ -216,11 +226,13 @@ p {
 	line-height: 2;
 	margin-bottom: 20px;
 	opacity: 0.8;
+
+
 }
 
 a {
 	font-size: 24px;
-	color: white;
+	color: #fafaee;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	opacity: 1;
@@ -236,7 +248,7 @@ a {
 		font-weight: 600;
 		font-style: italic;
 		text-decoration: none;
-		color: #fffffd;
+		color: #fafaee;
 		font-size: 32px;
 	}
 
@@ -267,4 +279,13 @@ a {
 	justify-content: left;
 	align-items: center;
 }
+
+
+
+.p_home_bjr{
+ display: flex;
+ flex-direction: rows;
+ align-items: center;
+ justify-content: center;
+	}
 
